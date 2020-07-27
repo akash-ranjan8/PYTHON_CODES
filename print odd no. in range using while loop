@@ -1,0 +1,7 @@
+x=int(input("enter the starting range"))
+y=int(input("enter the end range"))
+i=x
+while (i<=y):
+    if(i%2!=0):
+        print(i)
+        i=i+1
